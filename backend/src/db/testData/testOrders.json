@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "2cd1777831f75331588dc9bd"
+  },
+  "customer": {
+    "name": "Tester Joe",
+    "tel": "36201234567",
+    "address": "3530 Miskolc, Teszt utca 1."
+  },
+  "invoice": {
+    "price": 120000,
+    "isPaid": true
+  },
+  "notes": "Empty",
+  "isInstalled": true,
+  "windows": [
+    {
+      "width": 100,
+      "height": 260,
+      "shutter": {
+        "color": "green",
+        "material": "bamboo",
+        "parts": [
+          {
+            "count": 30,
+            "description": "100mm wide, green bamboo sheet"
+          },
+          {
+            "count": 2,
+            "description": "Rope"
+          }
+        ],
+        "isFinished": true
+      }
+    }
+  ]
+},
+  {
+    "_id": {
+      "$oid": "2cd1777831f75331588dc9be"
+    },
+    "customer": {
+      "name": "Tester Joe",
+      "tel": "36201234567",
+      "address": "3530 Miskolc, Teszt utca 1."
+    },
+    "notes": "Empty",
+    "isInstalled": false,
+    "windows": [
+      {
+        "width": 200,
+        "height": 550,
+        "shutter": {
+          "id": 2,
+          "color": "magenta",
+          "material": "cloth",
+          "parts": [
+            {
+              "count": 20,
+              "description": "200mm wide, magenta cloth sheet"
+            },
+            {
+              "count": 3,
+              "description": "Ropes"
+            }
+          ],
+          "isFinished": false
+        }
+      }
+    ]
+  }]
